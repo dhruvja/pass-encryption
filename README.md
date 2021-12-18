@@ -5,6 +5,10 @@ This app can store passwords in an encrypted format. Users can create multiple f
  - The user has to create an account by entering his/her email and a master password.
  - The master password is used to generate the private key which can be used to encrypt and decrypt the stored passwords
  - Fill the forms accordingly to store passwords in the required folders
+
+### Encryption
+ - Advanced Encryption Standard (AES256) is used for encryption and decryption of the stored passwords using a private key which is derived by taking random characters from master password and hashing so it can be used to derive the master password.
+ - The master password is stored using Secure Hashing algorithm (SHA3) but not with salting.
  
 ### Libraries
   - Crypto-JS: This library is used for encryption and decryption on the client side
