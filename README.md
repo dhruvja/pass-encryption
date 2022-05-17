@@ -16,7 +16,7 @@ This app can store passwords in an encrypted format. Users can create multiple f
   - Semantic-ui-react: This library is used as the css framework
   
 ### Technologies
-  - Frontend: React with JS
+  - Frontend: React JS
   - Server: Express JS (Node JS)
   - Database: PostgreSQL
   
